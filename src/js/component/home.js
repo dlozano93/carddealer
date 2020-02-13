@@ -53,14 +53,14 @@ export function Home() {
 							<div
 								className=" d-flex justify-content-between pb-5"
 								key={item}>
-								<span>{suit.props}</span>
-								<span>{value.props}</span>
+								<span>{item.suit}</span>
+								<span>{item.value}</span>
 							</div>
 							<div
 								className="rotate align-self-end d-flex justify-content-between pt-5 "
 								key={item}>
-								<span>{suit.props}</span>
-								<span>{value.props}</span>
+								<span>{item.suit}</span>
+								<span>{item.value}</span>
 							</div>
 						</div>
 					);
